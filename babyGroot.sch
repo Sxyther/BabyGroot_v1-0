@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -18789,18 +18789,18 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="P+1" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="IC2" library="uln-udn" library_urn="urn:adsk.eagle:library:407" deviceset="ULN2003A" device="N"/>
-<part name="R9" library="adafruit" deviceset="R-US_" device="0204/2V"/>
-<part name="R8" library="adafruit" deviceset="R-US_" device="0204/2V"/>
-<part name="R7" library="adafruit" deviceset="R-US_" device="0204/2V"/>
-<part name="R6" library="adafruit" deviceset="R-US_" device="0204/2V"/>
+<part name="R9" library="adafruit" deviceset="R-US_" device="0204/2V" value="470"/>
+<part name="R8" library="adafruit" deviceset="R-US_" device="0204/2V" value="470"/>
+<part name="R7" library="adafruit" deviceset="R-US_" device="0204/2V" value="470"/>
+<part name="R6" library="adafruit" deviceset="R-US_" device="0204/2V" value="470"/>
 <part name="LED6" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="LED5" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="LED4" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="LED3" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="LED2" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="LED1" library="adafruit" deviceset="LED" device="3MM"/>
-<part name="R5" library="adafruit" deviceset="R-US_" device="0204/2V"/>
-<part name="R4" library="adafruit" deviceset="R-US_" device="0204/2V"/>
+<part name="R5" library="adafruit" deviceset="R-US_" device="0204/2V" value="470"/>
+<part name="R4" library="adafruit" deviceset="R-US_" device="0204/2V" value="470"/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="SALIDA-D8" library="StarlightMX" deviceset="2POSHEADER-0.5MM" device=""/>
 <part name="SALIDA-D7" library="StarlightMX" deviceset="2POSHEADER-0.5MM" device=""/>
@@ -18808,18 +18808,18 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="SALIDA-D5" library="StarlightMX" deviceset="2POSHEADER-0.5MM" device=""/>
 <part name="U$8" library="StarlightMX" deviceset="2POSHEADER-0.5MM" device=""/>
 <part name="SALIDA-D4" library="StarlightMX" deviceset="2POSHEADER-0.5MM" device=""/>
-<part name="Q1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="XTAL/S" device=""/>
-<part name="C2" library="adafruit" deviceset="C-US" device="025-024X044"/>
-<part name="C3" library="adafruit" deviceset="C-US" device="025-024X044"/>
+<part name="Q1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="XTAL/S" device="" value="16MHz"/>
+<part name="C2" library="adafruit" deviceset="C-US" device="025-024X044" value="22pF"/>
+<part name="C3" library="adafruit" deviceset="C-US" device="025-024X044" value="22pF"/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
-<part name="R3" library="adafruit" deviceset="R-US_" device="0204/2V"/>
-<part name="C1" library="adafruit" deviceset="C-US" device="025-024X044"/>
+<part name="R3" library="adafruit" deviceset="R-US_" device="0204/2V" value="15k"/>
+<part name="C1" library="adafruit" deviceset="C-US" device="025-024X044" value=".1uF"/>
 <part name="P+3" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
 <part name="DS3231" library="adafruit" deviceset="PINHD-1X6" device=""/>
 <part name="IC3" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" technology="05"/>
-<part name="C4" library="adafruit" deviceset="CPOL-US" device="E2,5-6E"/>
-<part name="C5" library="adafruit" deviceset="CPOL-US" device="E2,5-6E"/>
+<part name="C4" library="adafruit" deviceset="CPOL-US" device="E2,5-6E" value="4.7uF"/>
+<part name="C5" library="adafruit" deviceset="CPOL-US" device="E2,5-6E" value="0.47uF"/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
@@ -18844,8 +18844,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="JP8" library="adafruit" deviceset="PINHD-1X3" device=""/>
 <part name="P+9" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
 <part name="GND18" library="SparkFun" deviceset="GND" device=""/>
-<part name="R1" library="adafruit" deviceset="R-US_" device="0204/2V"/>
-<part name="R2" library="adafruit" deviceset="R-US_" device="0204/2V"/>
+<part name="R1" library="adafruit" deviceset="R-US_" device="0204/2V" value="4.7k"/>
+<part name="R2" library="adafruit" deviceset="R-US_" device="0204/2V" value="4.7k"/>
 <part name="P+10" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
 <part name="P+11" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
 <part name="U$1" library="StarlightMX" deviceset="DC-JACK" device=""/>
@@ -18875,7 +18875,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="77.597" y1="136.525" x2="2.794" y2="136.398" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="2.794" y1="136.398" x2="2.794" y2="182.372" width="0.1524" layer="97" style="shortdash"/>
 <text x="169.418" y="7.62" size="3.81" layer="94">@pp_ruiz</text>
-<text x="238.506" y="6.35" size="3.81" layer="94">1.0</text>
+<text x="238.506" y="6.35" size="3.81" layer="94">1.1</text>
 <wire x1="155.956" y1="89.154" x2="242.316" y2="89.154" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="242.316" y1="89.154" x2="242.316" y2="56.642" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="242.316" y1="56.642" x2="155.956" y2="56.642" width="0.1524" layer="97" style="shortdash"/>
@@ -18902,13 +18902,19 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="JP3" gate="G$1" x="13.394" y="45.472"/>
 <instance part="JP4" gate="G$1" x="13.394" y="32.472"/>
 <instance part="GND10" gate="1" x="20.066" y="155.702"/>
-<instance part="RESET" gate="1" x="112.014" y="153.162"/>
+<instance part="RESET" gate="1" x="112.014" y="153.162" smashed="yes">
+<attribute name="NAME" x="99.822" y="150.876" size="1.778" layer="95"/>
+<attribute name="VALUE" x="108.204" y="156.337" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="U$4" gate="G$1" x="186.563" y="44.323"/>
 <instance part="IC1" gate="G$1" x="190.5" y="139.7"/>
 <instance part="P+1" gate="G$1" x="155.956" y="173.482"/>
 <instance part="GND1" gate="1" x="162.306" y="101.092"/>
 <instance part="IC2" gate="A" x="89.027" y="23.114"/>
-<instance part="R9" gate="G$1" x="72.39" y="166.243" rot="R270"/>
+<instance part="R9" gate="G$1" x="72.39" y="166.243" smashed="yes" rot="R270">
+<attribute name="NAME" x="70.993" y="169.9514" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="70.993" y="167.132" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="R8" gate="G$1" x="15.875" y="127.254"/>
 <instance part="R7" gate="G$1" x="15.875" y="117.094"/>
 <instance part="R6" gate="G$1" x="15.875" y="106.934"/>
@@ -18927,18 +18933,39 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="SALIDA-D5" gate="G$1" x="132.08" y="30.48"/>
 <instance part="U$8" gate="G$1" x="11.811" y="145.923" rot="R180"/>
 <instance part="SALIDA-D4" gate="G$1" x="132.08" y="15.24"/>
-<instance part="Q1" gate="G$1" x="149.86" y="119.38" rot="R180"/>
-<instance part="C2" gate="G$1" x="142.24" y="116.84"/>
-<instance part="C3" gate="G$1" x="157.48" y="116.84"/>
+<instance part="Q1" gate="G$1" x="149.86" y="119.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="147.32" y="125.73" size="1.778" layer="95"/>
+<attribute name="VALUE" x="154.94" y="124.46" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C2" gate="G$1" x="142.24" y="116.84" smashed="yes">
+<attribute name="NAME" x="143.256" y="112.395" size="1.778" layer="95"/>
+<attribute name="VALUE" x="143.256" y="110.109" size="1.778" layer="96"/>
+</instance>
+<instance part="C3" gate="G$1" x="157.48" y="116.84" smashed="yes">
+<attribute name="NAME" x="158.496" y="117.475" size="1.778" layer="95"/>
+<attribute name="VALUE" x="158.496" y="112.649" size="1.778" layer="96"/>
+</instance>
 <instance part="GND4" gate="1" x="142.24" y="106.172"/>
 <instance part="GND5" gate="1" x="157.48" y="106.172"/>
-<instance part="R3" gate="G$1" x="114.554" y="168.529" rot="R90"/>
-<instance part="C1" gate="G$1" x="104.394" y="160.782" rot="R90"/>
+<instance part="R3" gate="G$1" x="114.554" y="168.529" smashed="yes" rot="R90">
+<attribute name="NAME" x="112.141" y="171.4754" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="112.141" y="168.656" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C1" gate="G$1" x="104.394" y="160.782" smashed="yes" rot="R90">
+<attribute name="NAME" x="104.902" y="164.719" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="104.902" y="159.385" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="P+3" gate="G$1" x="97.413" y="126.762"/>
 <instance part="DS3231" gate="A" x="86.487" y="118.11" rot="R180"/>
 <instance part="IC3" gate="A1" x="47.879" y="167.894"/>
-<instance part="C4" gate="G$1" x="60.579" y="164.338"/>
-<instance part="C5" gate="G$1" x="35.179" y="164.338"/>
+<instance part="C4" gate="G$1" x="60.579" y="164.338" smashed="yes">
+<attribute name="NAME" x="61.595" y="159.893" size="1.778" layer="95"/>
+<attribute name="VALUE" x="61.595" y="157.607" size="1.778" layer="96"/>
+</instance>
+<instance part="C5" gate="G$1" x="35.179" y="164.338" smashed="yes">
+<attribute name="NAME" x="36.195" y="159.893" size="1.778" layer="95"/>
+<attribute name="VALUE" x="36.195" y="157.607" size="1.778" layer="96"/>
+</instance>
 <instance part="GND6" gate="1" x="47.879" y="155.194"/>
 <instance part="GND7" gate="1" x="35.179" y="155.194"/>
 <instance part="GND9" gate="1" x="60.579" y="155.194"/>
@@ -18963,8 +18990,14 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="JP8" gate="A" x="224.663" y="73.66" rot="R180"/>
 <instance part="P+9" gate="G$1" x="234.061" y="79.629"/>
 <instance part="GND18" gate="1" x="234.061" y="66.929"/>
-<instance part="R1" gate="G$1" x="63.5" y="119.38" rot="R90"/>
-<instance part="R2" gate="G$1" x="71.12" y="119.38" rot="R90"/>
+<instance part="R1" gate="G$1" x="63.5" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="62.23" y="122.9614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="62.23" y="120.142" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R2" gate="G$1" x="71.12" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="72.39" y="120.8786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="72.39" y="118.618" size="1.778" layer="96"/>
+</instance>
 <instance part="P+10" gate="G$1" x="67.568" y="128.032"/>
 <instance part="P+11" gate="G$1" x="115.066" y="175.022"/>
 <instance part="U$1" gate="G$1" x="12.35" y="165.35"/>
